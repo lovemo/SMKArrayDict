@@ -1,0 +1,2 @@
+# SMKArrayDict
+NSMutableArray+SMKArrayDict
