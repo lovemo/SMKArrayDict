@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		045126341D84EE0400D15A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045126331D84EE0400D15A8F /* main.m */; };
-		0451263E1D84EECF00D15A8F /* NSMutableArray+SMKArrayDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451263D1D84EECF00D15A8F /* NSMutableArray+SMKArrayDict.m */; };
+		045126421D84F0B300D15A8F /* NSMutableArray+SMKArrayDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 045126411D84F0B300D15A8F /* NSMutableArray+SMKArrayDict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		045126301D84EE0400D15A8F /* SMKArrayDictDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SMKArrayDictDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		045126331D84EE0400D15A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0451263C1D84EECF00D15A8F /* NSMutableArray+SMKArrayDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SMKArrayDict.h"; sourceTree = "<group>"; };
-		0451263D1D84EECF00D15A8F /* NSMutableArray+SMKArrayDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SMKArrayDict.m"; sourceTree = "<group>"; };
+		045126401D84F0B300D15A8F /* NSMutableArray+SMKArrayDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SMKArrayDict.h"; sourceTree = "<group>"; };
+		045126411D84F0B300D15A8F /* NSMutableArray+SMKArrayDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SMKArrayDict.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		045126271D84EE0400D15A8F = {
 			isa = PBXGroup;
 			children = (
-				0451263B1D84EECF00D15A8F /* SMKArrayDict */,
+				0451263F1D84F0B300D15A8F /* SMKArrayDict */,
 				045126321D84EE0400D15A8F /* SMKArrayDictDemo */,
 				045126311D84EE0400D15A8F /* Products */,
 			);
@@ -66,13 +66,14 @@
 			path = SMKArrayDictDemo;
 			sourceTree = "<group>";
 		};
-		0451263B1D84EECF00D15A8F /* SMKArrayDict */ = {
+		0451263F1D84F0B300D15A8F /* SMKArrayDict */ = {
 			isa = PBXGroup;
 			children = (
-				0451263C1D84EECF00D15A8F /* NSMutableArray+SMKArrayDict.h */,
-				0451263D1D84EECF00D15A8F /* NSMutableArray+SMKArrayDict.m */,
+				045126401D84F0B300D15A8F /* NSMutableArray+SMKArrayDict.h */,
+				045126411D84F0B300D15A8F /* NSMutableArray+SMKArrayDict.m */,
 			);
-			path = SMKArrayDict;
+			name = SMKArrayDict;
+			path = ../SMKArrayDict;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				045126341D84EE0400D15A8F /* main.m in Sources */,
-				0451263E1D84EECF00D15A8F /* NSMutableArray+SMKArrayDict.m in Sources */,
+				045126421D84F0B300D15A8F /* NSMutableArray+SMKArrayDict.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +254,7 @@
 				045126391D84EE0400D15A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
